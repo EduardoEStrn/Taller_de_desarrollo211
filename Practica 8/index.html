@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 8</title>
+    <style>
+        body
+        {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a
+        {
+            display: block;
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active
+        {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        li a:hover:not(active)
+        {
+            background-color: #555;
+            color: white;
+        }
+
+        #home
+        {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: darkgrey;
+            padding: 25px;
+            border: 10px solid rgb(77, 73, 73);
+            background: url(https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        #news
+        {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: rgb(204, 204, 204);
+            padding: 25px;
+            border: 10px solid rgb(77, 73, 73);
+
+        }
+
+        #contact
+        {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: darkgrey;
+            padding: 25px;
+            border: 10px solid rgb(77, 73, 73);
+
+        }
+
+        #about
+        {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: rgb(204, 204, 204);
+            padding: 25px;
+            border: 10px solid rgb(77, 73, 73);
+
+        }
+    </style>
+</head>
+<body>
+   <ul>
+        <li>
+            <a class="active" href="#home">
+                Inicio
+            </a>
+        </li>
+        <li>
+            <a href="#news">
+                Noticia
+            </a>
+        </li>
+        <li>
+            <a href="#contact">
+                Contacto
+            </a>
+        </li>
+        <li>
+            <a href="#about">
+                Acerca de
+            </a>
+        </li>
+    </ul> 
+
+    <div id="home">
+        <h2>Titulo</h2>
+        <h3>Subtitulo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, quas quaerat dolorum laborum nulla qui sed at delectus doloremque, exercitationem dolorem incidunt reiciendis optio aliquam fugiat itaque ipsum magni!</p>
+    </div>
+
+    <div id="news">
+        <h2>Noticias</h2>
+        <h3>Subtitulo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, quas quaerat dolorum laborum nulla qui sed at delectus doloremque, exercitationem dolorem incidunt reiciendis optio aliquam fugiat itaque ipsum magni!</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contacto</h2>
+        <h3>Subtitulo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, quas quaerat dolorum laborum nulla qui sed at delectus doloremque, exercitationem dolorem incidunt reiciendis optio aliquam fugiat itaque ipsum magni!</p>
+    </div>
+
+    <div id="about">
+        <h2>Acerca de</h2>
+        <h3>Subtitulo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, quas quaerat dolorum laborum nulla qui sed at delectus doloremque, exercitationem dolorem incidunt reiciendis optio aliquam fugiat itaque ipsum magni!</p>
+    </div>
+
+</body>
+</html>
